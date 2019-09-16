@@ -4,7 +4,7 @@
 Plugin Name: S3 Uploads
 Description: Store uploads in S3
 Author: Human Made Limited
-Version: 2.0.0
+Version: 2.1.0-RC2
 Author URI: http://hmn.md
 */
 
@@ -18,7 +18,7 @@ function s3_uploads_init() {
 	// Ensure the AWS SDK can be loaded.
 	if ( ! class_exists( '\\Aws\\S3\\S3Client' ) ) {
 		// Require AWS Autoloader file.
-		require_once dirname( __FILE__ ) . '/lib/aws-sdk/aws-autoloader.php';
+		require_once dirname( __FILE__ ) . '/vendor/autoload.php';
 	}
 
 	if ( ! s3_uploads_check_requirements() ) {

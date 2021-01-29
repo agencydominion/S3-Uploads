@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-develop',
-    'version' => 'dev-develop',
+    'pretty_version' => '1.0.0+no-version-set',
+    'version' => '1.0.0.0',
     'aliases' => 
     array (
     ),
-    'reference' => '55370c66af6f82820ea6534fd18446acf19da051',
+    'reference' => NULL,
     'name' => 'humanmade/s3-uploads',
   ),
   'versions' => 
@@ -58,12 +58,12 @@
     ),
     'humanmade/s3-uploads' => 
     array (
-      'pretty_version' => 'dev-develop',
-      'version' => 'dev-develop',
+      'pretty_version' => '1.0.0+no-version-set',
+      'version' => '1.0.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '55370c66af6f82820ea6534fd18446acf19da051',
+      'reference' => NULL,
     ),
     'mtdowling/jmespath.php' => 
     array (
